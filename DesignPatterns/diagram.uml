@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="736.4999999999998" y="456.5">ConferenceControllers.RequestHandler</node>
+    <node x="853.0" y="1691.0">Entities.Speaker</node>
+    <node x="921.5" y="2106.0">ConferenceControllers.Decision</node>
+    <node x="4220.954166666666" y="500.5">ConferenceControllers.UserGenerator</node>
+    <node x="528.9999999999998" y="914.0">ConferenceControllers.MainMenu.VIPUserMainMenu</node>
+    <node x="1026.5277777777778" y="1300.5">Entities.IndividualScheduleInterface</node>
+    <node x="1044.0" y="2210.0">ConferenceControllers.UserDecision</node>
+    <node x="458.0" y="1680.0">Entities.Attendee</node>
+    <node x="4242.25" y="1102.0">Algorithms.LevenshteinSearch</node>
+    <node x="4548.954166666666" y="379.0">ConferenceControllers.UserMessenger</node>
+    <node x="1072.4999999999998" y="500.5">ConferenceControllers.MainMenu.MainMenu</node>
+    <node x="0.0" y="914.0">ConferenceControllers.MainMenu.OrganizerMainMenu</node>
+    <node x="4705.0" y="1285.0">Algorithms.SearchWord</node>
+    <node x="3790.0" y="1102.0">Entities.Conversation</node>
+    <node x="548.5" y="1984.0">Entities.VIPUser</node>
+    <node x="3218.0" y="1102.0">Entities.Event</node>
+    <node x="2102.0" y="914.0">ConferenceControllers.MainMenu.AttendeeMainMenu</node>
+    <node x="1046.9999999999998" y="914.0">ConferenceControllers.MainMenu.SpeakerMainMenu</node>
+    <node x="1668.0" y="1102.0">UI.InterfacePresenter</node>
+    <node x="2128.0" y="1102.0">UseCases.EventManager</node>
+    <node x="0.0" y="2106.0">UseCases.ConversationManager</node>
+    <node x="4215.0" y="1252.0">Algorithms.SearchString</node>
+    <node x="468.0" y="2106.0">Gateways.ManagerGateway</node>
+    <node x="213.27777777777777" y="1102.0">Entities.User</node>
+    <node x="1868.9999999999998" y="324.0">ConferenceControllers.EventScheduler</node>
+    <node x="4705.0" y="1125.0">Algorithms.Search</node>
+    <node x="1314.0" y="2106.0">UI.InterfaceController</node>
+    <node x="3728.9541666666664" y="489.5">ConferenceControllers.LoginReceiver</node>
+    <node x="2627.0" y="848.0">ConferenceControllers.UserTracker</node>
+    <node x="3175.0" y="869.5">ConferenceControllers.SpeakerMessenger</node>
+    <node x="0.0" y="1768.5">Entities.AdminUser</node>
+    <node x="2510.0" y="390.0">ConferenceControllers.EventSignup</node>
+    <node x="592.2777777777778" y="1334.0">Entities.EventParticipant</node>
+    <node x="2800.0" y="1102.0">UseCases.UserManager</node>
+    <node x="1248.0" y="1702.0">Entities.Room</node>
+    <node x="2758.75" y="0.0">ConferenceControllers.ConferenceController</node>
+    <node x="3281.9541666666664" y="467.0">ConferenceControllers.Announcer</node>
+    <node x="233.0" y="1768.5">Entities.Organizer</node>
+    <node x="1565.9999999999998" y="914.0">ConferenceControllers.MainMenu.AdminUserMainMenu</node>
+    <node x="3769.0" y="869.5">ConferenceControllers.OrganizerMessenger</node>
+    <node x="799.0" y="2210.0">ConferenceControllers.AdminUserDecision</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ConferenceControllers.UserTracker" target="ConferenceControllers.Announcer">
+      <point x="0.0" y="-104.5" />
+      <point x="2891.0" y="828.0" />
+      <point x="3353.120833333333" y="828.0" />
+      <point x="-142.33333333333337" y="94.0" />
+    </edge>
+    <edge source="ConferenceControllers.SpeakerMessenger" target="ConferenceControllers.Announcer">
+      <point x="0.0" y="-83.0" />
+      <point x="3462.0" y="828.0" />
+      <point x="3495.4541666666664" y="828.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="Algorithms.SearchWord" target="Algorithms.LevenshteinSearch">
+      <point x="-75.5" y="-38.5" />
+      <point x="4780.5" y="1222.0" />
+      <point x="4513.0" y="1222.0" />
+      <point x="90.25" y="50.0" />
+    </edge>
+    <edge source="ConferenceControllers.RequestHandler" target="ConferenceControllers.ConferenceController">
+      <point x="0.0" y="-104.5" />
+      <point x="894.4999999999998" y="274.0" />
+      <point x="2778.8125" y="274.0" />
+      <point x="-140.4375" y="127.0" />
+    </edge>
+    <edge source="ConferenceControllers.UserMessenger" target="ConferenceControllers.ConferenceController">
+      <point x="0.0" y="-182.0" />
+      <point x="4807.454166666666" y="274.0" />
+      <point x="3059.6875" y="274.0" />
+      <point x="140.4375" y="127.0" />
+    </edge>
+    <edge source="ConferenceControllers.MainMenu.SpeakerMainMenu" target="ConferenceControllers.MainMenu.MainMenu">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="ConferenceControllers.EventSignup" target="ConferenceControllers.ConferenceController">
+      <point x="0.0" y="-171.0" />
+      <point x="2705.0" y="304.0" />
+      <point x="2899.1875" y="304.0" />
+      <point x="-20.0625" y="127.0" />
+    </edge>
+    <edge source="Entities.Speaker" target="Entities.EventParticipant">
+      <point x="0.0" y="-116.0" />
+      <point x="1040.5" y="1640.0" />
+      <point x="755.0277777777778" y="1640.0" />
+      <point x="54.25" y="27.0" />
+    </edge>
+    <edge source="ConferenceControllers.Announcer" target="ConferenceControllers.ConferenceController">
+      <point x="0.0" y="-94.0" />
+      <point x="3495.4541666666664" y="304.0" />
+      <point x="2939.3125" y="304.0" />
+      <point x="20.0625" y="127.0" />
+    </edge>
+    <edge source="ConferenceControllers.MainMenu.OrganizerMainMenu" target="ConferenceControllers.MainMenu.MainMenu">
+      <point x="0.0" y="-38.5" />
+      <point x="254.5" y="818.0" />
+      <point x="1117.3" y="818.0" />
+      <point x="-179.19999999999982" y="60.5" />
+    </edge>
+    <edge source="ConferenceControllers.MainMenu.VIPUserMainMenu" target="ConferenceControllers.MainMenu.MainMenu">
+      <point x="0.0" y="-38.5" />
+      <point x="777.9999999999998" y="828.0" />
+      <point x="1206.8999999999999" y="828.0" />
+      <point x="-89.59999999999991" y="60.5" />
+    </edge>
+    <edge source="Entities.Room" target="Entities.IndividualScheduleInterface">
+      <point x="0.0" y="-105.0" />
+      <point x="1435.5" y="1660.0" />
+      <point x="1339.0277777777778" y="1660.0" />
+      <point x="125.0" y="60.5" />
+    </edge>
+    <edge source="Entities.Organizer" target="Entities.User">
+      <point x="0.0" y="-38.5" />
+      <point x="335.5" y="1660.0" />
+      <point x="311.52777777777777" y="1660.0" />
+      <point x="-32.75" y="259.0" />
+    </edge>
+    <edge source="Entities.VIPUser" target="Entities.Attendee">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="127.0" />
+    </edge>
+    <edge source="Entities.Attendee" target="Entities.IndividualScheduleInterface">
+      <point x="125.0" y="-127.0" />
+      <point x="770.5" y="1660.0" />
+      <point x="1089.0277777777778" y="1660.0" />
+      <point x="-125.0" y="60.5" />
+    </edge>
+    <edge source="Algorithms.SearchWord" target="Algorithms.Search">
+      <point x="75.5" y="-38.5" />
+      <point x="75.5" y="27.0" />
+    </edge>
+    <edge source="Algorithms.SearchString" target="Algorithms.Search">
+      <point x="117.5" y="-71.5" />
+      <point x="4567.5" y="1232.0" />
+      <point x="4780.5" y="1232.0" />
+      <point x="-75.5" y="27.0" />
+    </edge>
+    <edge source="ConferenceControllers.UserDecision" target="ConferenceControllers.Decision">
+      <point x="0.0" y="-27.0" />
+      <point x="1156.5" y="2185.0" />
+      <point x="1090.25" y="2185.0" />
+      <point x="56.25" y="27.0" />
+    </edge>
+    <edge source="ConferenceControllers.MainMenu.AdminUserMainMenu" target="ConferenceControllers.MainMenu.MainMenu">
+      <point x="0.0" y="-38.5" />
+      <point x="1823.9999999999998" y="828.0" />
+      <point x="1386.0999999999997" y="828.0" />
+      <point x="89.59999999999991" y="60.5" />
+    </edge>
+    <edge source="Entities.Attendee" target="Entities.EventParticipant">
+      <point x="0.0" y="-127.0" />
+      <point x="645.5" y="1660.0" />
+      <point x="646.5277777777778" y="1660.0" />
+      <point x="-54.25" y="27.0" />
+    </edge>
+    <edge source="ConferenceControllers.OrganizerMessenger" target="ConferenceControllers.Announcer">
+      <point x="0.0" y="-83.0" />
+      <point x="4013.0" y="828.0" />
+      <point x="3637.7875" y="828.0" />
+      <point x="142.33333333333348" y="94.0" />
+    </edge>
+    <edge source="Entities.AdminUser" target="Entities.User">
+      <point x="0.0" y="-38.5" />
+      <point x="106.5" y="1660.0" />
+      <point x="246.02777777777777" y="1660.0" />
+      <point x="-98.25" y="259.0" />
+    </edge>
+    <edge source="Entities.Speaker" target="Entities.IndividualScheduleInterface">
+      <point x="125.0" y="-116.0" />
+      <point x="1165.5" y="1660.0" />
+      <point x="1214.0277777777778" y="1660.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="ConferenceControllers.UserGenerator" target="ConferenceControllers.ConferenceController">
+      <point x="0.0" y="-60.5" />
+      <point x="4374.954166666666" y="284.0" />
+      <point x="3019.5625" y="284.0" />
+      <point x="100.3125" y="127.0" />
+    </edge>
+    <edge source="ConferenceControllers.MainMenu.MainMenu" target="ConferenceControllers.ConferenceController">
+      <point x="0.0" y="-60.5" />
+      <point x="1296.4999999999998" y="284.0" />
+      <point x="2818.9375" y="284.0" />
+      <point x="-100.3125" y="127.0" />
+    </edge>
+    <edge source="ConferenceControllers.EventScheduler" target="ConferenceControllers.ConferenceController">
+      <point x="-4.547473508864641E-13" y="-237.0" />
+      <point x="2179.499999999999" y="294.0" />
+      <point x="2859.0625" y="294.0" />
+      <point x="-60.1875" y="127.0" />
+    </edge>
+    <edge source="ConferenceControllers.LoginReceiver" target="ConferenceControllers.ConferenceController">
+      <point x="0.0" y="-71.5" />
+      <point x="3964.9541666666664" y="294.0" />
+      <point x="2979.4375" y="294.0" />
+      <point x="60.1875" y="127.0" />
+    </edge>
+    <edge source="ConferenceControllers.AdminUserDecision" target="ConferenceControllers.Decision">
+      <point x="0.0" y="-27.0" />
+      <point x="911.5" y="2185.0" />
+      <point x="977.75" y="2185.0" />
+      <point x="-56.25" y="27.0" />
+    </edge>
+    <edge source="Entities.Attendee" target="Entities.User">
+      <point x="-125.0" y="-127.0" />
+      <point x="520.5" y="1660.0" />
+      <point x="377.02777777777777" y="1660.0" />
+      <point x="32.75" y="259.0" />
+    </edge>
+    <edge source="Algorithms.SearchString" target="Algorithms.LevenshteinSearch">
+      <point x="-117.5" y="-71.5" />
+      <point x="-90.25" y="50.0" />
+    </edge>
+    <edge source="ConferenceControllers.MainMenu.AttendeeMainMenu" target="ConferenceControllers.MainMenu.MainMenu">
+      <point x="0.0" y="-38.5" />
+      <point x="2354.5" y="818.0" />
+      <point x="1475.7" y="818.0" />
+      <point x="179.20000000000027" y="60.5" />
+    </edge>
+    <edge source="Entities.Speaker" target="Entities.User">
+      <point x="-125.0" y="-116.0" />
+      <point x="915.5" y="1650.0" />
+      <point x="442.52777777777777" y="1650.0" />
+      <point x="98.25" y="259.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.20000000000000015" x="1653.3333333333326" y="1463.4999999999989" />
+  <SelectedNodes>
+    <node>UseCases.UserManager</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
