@@ -17,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CSC207conference" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1myyv708wd8upavlbx1NZGOiTk0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,6 +27,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,5 +53,31 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="268" key="#Notifications" timestamp="1610482409036">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="446" y="268" key="#Notifications/0.23.1440.829@0.23.1440.829" timestamp="1610482409036" />
+    <state x="184" y="99" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610482620858">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="184" y="99" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.828@0.23.1440.828" timestamp="1610482620858" />
+    <state x="221" y="77" width="1216" height="722" key="SettingsEditor" timestamp="1610482594526">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="221" y="77" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1610482594526" />
+    <state x="221" y="77" width="1216" height="722" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1610482514857" />
+    <state x="221" y="77" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1610481748442" />
+    <state x="100" y="123" width="1240" height="629" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610482379242">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="100" y="123" width="1240" height="629" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.829@0.23.1440.829" timestamp="1610482379242" />
   </component>
 </project>
